@@ -2,61 +2,59 @@ from pyrogram.types import InlineKeyboardButton
 
 
 class Data:
-    generate_single_button = [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
-
-    home_buttons = [
-        generate_single_button,
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
-    ]
-
-    generate_button = [generate_single_button]
-
-    buttons = [
-        generate_single_button,
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
-        [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
-        ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-    ]
-
+    # Start Message
     START = """
-Hey {}
+Hello Welcome to Wick String Session Bot
 
 Welcome to {}
 
-If you don't trust this bot, 
-1) stop reading this message
-2) delete this chat
+Welcome to Wick String Session Generator.
+I can generate Pyrogram & Telethon String Session for you in easy way
 
-Still reading?
-You can use me to generate pyrogram (even version 2) and telethon string session. Use below buttons to learn more !
+You can use me to generate pyrogram and telethon string session. Use below buttons !
 
-By @StarkBots
+By Wick
     """
 
+    # Home Button
+    home_buttons = [
+        [InlineKeyboardButton("🔗 Start Generating Session ", callback_data="generate")],
+        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
+    ]
+
+    generate_button = [
+        [InlineKeyboardButton("🔗 Start Generating Session ", callback_data="generate")]
+    ]
+
+    # Rest Buttons
+    buttons = [
+        [InlineKeyboardButton("🔗 Start Generating Session ", callback_data="generate")],
+        
+    ]
+
+    # Help Message
     HELP = """
 ✨ **Available Commands** ✨
 
 /about - About The Bot
 /help - This Message
 /start - Start the Bot
-/generate - Generate Session
+/generate - Start Generating Session
 /cancel - Cancel the process
 /restart - Cancel the process
 """
 
+    # About Message
     ABOUT = """
 **About This Bot** 
 
-Telegram Bot to generate Pyrogram and Telethon string session by @StarkBots
+A telegram bot to generate pyrogram and telethon string session by Wick
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/StringSessionBot)
+Source Code : [Click Here](https://github.com/johncarter371/StringSessionBot)
 
-Framework : [Pyrogram](https://docs.pyrogram.org)
+Framework : [Pyrogram](docs.pyrogram.org)
 
-Language : [Python](https://www.python.org)
+Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Developer : Mr.Wick
     """
