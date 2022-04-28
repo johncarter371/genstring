@@ -1,6 +1,6 @@
 # Pyrogram and Telethon String Session Bot [@WickStringSessionRobot](https://t.me/WickStringSessionRobot)
 
-> A star ⭐ from you means a lot to us!
+> A star ⭐ from you means a lot to us!😍😍
 
 <p align="center"><a href="https://www.github.com/johncarter371/StringSessionBot"><img src="https://telegra.ph/file/3d2c66a51c8dcccbfca9a.jpg" width="2000"></a></p>
 
