@@ -31,7 +31,7 @@ buttons_ques = [
         InlineKeyboardButton("Telethon", callback_data="telethon"),
     ],
     [
-        InlineKeyboardButton("Pyrogram v2 [New]", callback_data="pyrogram"),
+        InlineKeyboardButton("Pyrogram 2.0", callback_data="pyrogram"),
     ],
     # [
     #     InlineKeyboardButton("Pyrogram Bot", callback_data="pyrogram_bot"),
